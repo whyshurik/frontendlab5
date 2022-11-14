@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        body {
+            color:black;
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            font-weight: 150;
+            background: #252526;
+        }
+    </style>
+</head>
+<body>
+<div class="flex-container">
+
+    <div style="font-weight: bold; color: white">
+        Enter your information
+    </div>
+    <div>
+        <input type="text" id="name" placeholder="ПІБ">
+    </div>
+    <div>
+        <input type="text" id="var" placeholder="Варіант">
+    </div>
+    <div>
+        <input type="text" id="group" placeholder="Група">
+    </div>
+    <div>
+        <input type="text" id="phone-number" placeholder="Телефон">
+    </div>
+    <div>
+        <input type="text" id="id-card" placeholder="ID-card">
+    </div>
+    <div>
+        <button onclick="getData()" id="button">Submit!</button>
+    </div>
+    <p id="result" ></p>
+</div>
+<div id="color-palette">
+    <input type="color" id="color-pal" name="body"
+           value="#f6b73c">
+    <label for="color-pal"></label>
+</div>
+<div class="flex-container2">
+    <div id="row1" class="row">
+        <div id="1" class="node" onmouseenter="changeColorToRandom(1)" onclick="changeColor(1)" ondblclick="changeRowColor()">1</div>
+        <div id="2" class="node">2</div>
+        <div id="3" class="node">3</div>
+        <div id="4" class="node">4</div>
+        <div id="5" class="node">5</div>
+        <div id="6" class="node">6</div>
+    </div>
+    <div class="row">
+        <div class="node">7</div>
+        <div class="node">8</div>
+        <div class="node">9</div>
+        <div class="node">10</div>
+        <div class="node">11</div>
+        <div class="node">12</div>
+    </div>
+    <div class="row">
+        <div class="node">13</div>
+        <div class="node">14</div>
+        <div class="node">15</div>
+        <div class="node">16</div>
+        <div class="node">17</div>
+        <div class="node">18</div>
+    </div>
+    <div class="row">
+        <div class="node">19</div>
+        <div class="node">20</div>
+        <div class="node">21</div>
+        <div class="node">22</div>
+        <div class="node">23</div>
+        <div class="node">24</div>
+    </div>
+    <div class="row">
+        <div class="node">25</div>
+        <div class="node">26</div>
+        <div class="node">27</div>
+        <div class="node">28</div>
+        <div class="node">29</div>
+        <div class="node">30</div>
+    </div>
+    <div class="row">
+        <div class="node">31</div>
+        <div class="node">32</div>
+        <div class="node">33</div>
+        <div class="node">34</div>
+        <div class="node">35</div>
+        <div class="node">36</div>
+    </div>
+</div>
+</body>
+</html>
